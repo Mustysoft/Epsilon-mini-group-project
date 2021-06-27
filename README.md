@@ -1,1 +1,1 @@
-# Epsilon-mini-group-project
+LIST OF MEMBERS IN EPSILON GROUP 
