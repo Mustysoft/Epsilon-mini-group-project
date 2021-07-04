@@ -27,3 +27,42 @@ li {
 
 }
  
+
+
+
+
+
+
+.article {
+    border: 1px solid;
+    width: 311px;
+    height: 238px;
+    margin-top: -333px;
+    margin-left: 361px;
+    line-height: 3;
+    text-align: center;
+    box-shadow: 1px 2px 9px 7px;
+    background-color: #CCC;
+}
+.wrap2 {
+    border: 1px solid #CCC;
+    height: 225px;
+    width: 179px;
+    margin: -240px auto auto 781px;
+    background-color: #CCC;
+    box-shadow: 1px 2px 9px 7px;
+    padding: 6px;
+}
+.my{
+	padding:10px;
+}
+.banner {
+    border: 1px solid;
+    height: 58px;
+    width: 889px;
+    margin-left: 230px;
+    margin-top: 34px;
+    box-shadow: 1px 2px 9px 7px;
+    background-color: #3266B3;
+}
+</style>
