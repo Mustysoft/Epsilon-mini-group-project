@@ -1,3 +1,15 @@
+Description of epsilon Description of epsilon group project:THE project is created 
+On school login page that saves the information about student in the database 
+And we tried to outline some importance of database.
+
+How the project was created:
+We had several meeting between the group members deciding
+On what to create finally after concluding we had to know which part each member are good 
+At some where good at css,html, php etc.
+So we had to design an algorithm of the structure of the project
+
+
+
 LIST OF MEMBERS IN EPSILON GROUP 
 
 1: REG NO: FCP/CSC/18/1008 
