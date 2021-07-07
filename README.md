@@ -1,5 +1,5 @@
-Description of epsilon Description of epsilon group project:THE project is created 
-On school login page that saves the information about student in the database 
+Description of Epsilon group project: The project is created 
+On school login page that saves the information about student in the database, 
 And we tried to outline some importance of database.
 
 How the project was created:
