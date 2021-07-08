@@ -38,6 +38,14 @@ a.li{text-decoration:none;}
     background-color: #3266B3;
 }
 
+.wrap-all {
+    height: 466px;
+    width: 889px;
+    border: 1px solid;
+    margin: auto;
+    box-shadow: 1px 2px 9px 7px;
+    background-color: #CCC;
+}
 
 
 
