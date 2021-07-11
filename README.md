@@ -12,10 +12,10 @@ So we had to design an algorithm of the structure of the project
 
 LIST OF MEMBERS IN EPSILON GROUP 
 
-1: REG NO: FCP/CSC/18/1008 
+1: REG NO: FCP/CSC/18/1008   
    NAME :ADEBAYO ABDULAZEEZ ADEYINKA
    E-mail: adebayoaa519@gmail.com 
-   User-name:
+   User-name: adekid018
 
 2. REG NO: FCP/CSC/19/2023
 NAME: ABDULGANIYU MUSTAPHA ABAYOMI
