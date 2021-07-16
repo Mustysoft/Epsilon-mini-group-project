@@ -14,4 +14,12 @@ $varsage = mysqli_real_escape_string($conn, $_REQUEST['sage']);
 $sql = "INSERT INTO student_record"(student_Name,student_Reg, student_Class,student_Age)
 VALUES('$varsname','$varsreg','varsclass','varsage')";
 
+echo '<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+</body>
+</html>
 ?>
