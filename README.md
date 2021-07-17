@@ -49,3 +49,8 @@ Username: khalid181023
 
 8. REG NO: FCP/CIT/18/1003
 NAME:  YAKUBU VICTOR FRIDAY
+
+9.REG NO: FCP/CIT/18/1001
+ NAME: Adamu Usman 
+Username :maybesaint 
+Gmail : uthmanardam@gmail.com 
