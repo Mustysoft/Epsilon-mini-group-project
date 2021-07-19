@@ -5,14 +5,28 @@ $conn = mysqli_connect ("localhost", "isah", "123456", "isah");
 if($conn === false) {
     die ("Failed to connect to database");
 }
-
 $varsname = mysqli_real_escape_string($conn, $_REQUEST['sname']);
 $varsreg = mysqli_real_escape_string($conn, $_REQUEST['sreg']);
 $varsclass = mysqli_real_escape_string($conn, $_REQUEST['sclass']);
 $varsage = mysqli_real_escape_string($conn, $_REQUEST['sage']);
    
-$sql = "INSERT INTO student_record"(student_Name,student_Reg, student_Class,student_Age)
-VALUES('$varsname','$varsreg','varsclass','varsage')";
+$createtable = "
+	CREATE TABLE IF NOT EXISTS student_record(
+		ID INT(10) AUTO_INCREMENT PRIMARY KEY,
+		Student_name VARCHAR(100) NOT NULL, 
+		Student_reg VARCHAR(100) NOT NULL,
+		Student_class VARCHAR(100) NOT NULL;
+		Student_age VARCHAR(100) NOT NULL
+	)";
+mysqli_query($conn, $createtable);
+
+$sql = "INSERT INTO student_record (student_name, student_reg, student_class, student_age) VALUES('$varsname', '$varsreg', '$varsclass', '$varsage')";
+
+if(mysqli_query($conn, $sql)) {
+    echo "Successfully added record to database";
+} else {
+    echo "failed to added record to database";
+}
 
 echo  'Name :'.'&nbsp'.'Dear'.'&nbsp'. $_POST['sname'].'<br><br>'.'Reg number is:'. $_POST['sreg'].'<br><br>'.'Your level is: '.$_POST['sclass'].'<br><br>'.'Your age is: '.$_POST['sage'].'&nbsp'.'&nbsp'.'&nbsp'.'&nbsp'.'&nbsp'.'<b><h3> We Have Received Your Information Which Have Been Submitted To Our Database!</h3><b>';
 
