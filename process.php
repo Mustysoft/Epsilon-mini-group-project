@@ -41,6 +41,7 @@ $sql = "INSERT INTO student_record(Student_name, Student_reg, Student_class, Stu
 		echo "could not be added";
 } else {
 	echo "Account" . ' ' . $_REQUEST['sname'] . ' ' .  "already exists";} 
+header('refresh:10, url=index.php');
 
 echo '<html>
 
@@ -61,4 +62,6 @@ echo '<html>
 
 </body>
 </html>'
+
+mysqli_close ($conn);
 ?>
