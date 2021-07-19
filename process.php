@@ -30,6 +30,17 @@ if(mysqli_query($conn, $sql)) {
 
 echo  'Name :'.'&nbsp'.'Dear'.'&nbsp'. $_POST['sname'].'<br><br>'.'Reg number is:'. $_POST['sreg'].'<br><br>'.'Your level is: '.$_POST['sclass'].'<br><br>'.'Your age is: '.$_POST['sage'].'&nbsp'.'&nbsp'.'&nbsp'.'&nbsp'.'&nbsp'.'<b><h3> We Have Received Your Information Which Have Been Submitted To Our Database!</h3><b>';
 
+$mycheck = "SELECT * FROM student_record WHERE student_name='$varsname'";
+$result = mysqli_query($conn, $mycheck);
+$count = mysqli_num_rows($result);
+if($count == 0){	
+$sql = "INSERT INTO student_record(Student_name, Student_reg, Student_class, Student_age) VALUES($varsname', '$varsreg', '$varsclass', '$varsage')";
+	if(mysqli_query($conn, $sql)){
+		echo "Added successfully";
+		} else
+		echo "could not be added";
+} else {
+	echo "Account" . ' ' . $_REQUEST['sname'] . ' ' .  "already exists";} 
 
 echo '<html>
 
