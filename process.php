@@ -35,5 +35,5 @@ echo '<html>
   <br>
 
 </body>
-</html>
+</html>'
 ?>
