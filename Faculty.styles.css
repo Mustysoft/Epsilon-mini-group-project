@@ -1,0 +1,13 @@
+h1{text-align: center;
+        border-style: groove;
+        box-shadow: slategrey,30pt;
+        margin-right: 25%;
+        margin-left:25% ;
+        border-radius: 30pt;
+    }    
+    li{
+        list-style-type:circle;
+        font-size:100%;
+      }
+      body{
+          background-color: gray;      }
