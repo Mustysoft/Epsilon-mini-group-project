@@ -24,7 +24,7 @@ LIST OF MEMBERS IN EPSILON GROUP
    User-name: mustysoft
 
 
-3. REG NO: FCP/CSC/19/2022
+3: REG NO: FCP/CSC/19/2022
    NAME: USMAN ABBA USMAN
    E-Mail: usmanabbausmancbk@gmail.com 
    User-name: usmanabbacbk
