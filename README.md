@@ -26,7 +26,7 @@ LIST OF MEMBERS IN EPSILON GROUP
 
 3: REG NO: FCP/CSC/19/2022
    NAME: USMAN ABBA USMAN
-   E-Mail: usmanabbausmancbk@gmail.com 
+   E-Mail: usmanabbausmancbk@gmail.com.  
    User-name: usmanabbacbk
 
 4. REG NO: FCP/CCS/18/1005
