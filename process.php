@@ -20,6 +20,25 @@ $createtable = "
 mysqli_query($conn, $createtable);
 
 $sql = "INSERT INTO student_record (student_name, student_reg, student_class, student_age) VALUES('$varsname', '$varsreg', '$varsclass', '$varsage')";
+echo '<html>
+<head>
+  <style>
+    p{
+      text-decoration: underline;
+      color:rgb(110, 102, 13);
+      text-align: center;
+    }
+    body{background-color: silver;}
+    div {
+    border-color: black;
+    margin-left: 210pt;
+    margin-right: 207pt;
+    border-style: dotted;
+    font-size: x-large;
+}
+    li{
+      list-style-type: circle;
+    }
 
 if(mysqli_query($conn, $sql)) {
     echo "Successfully added record to database";
@@ -50,6 +69,7 @@ echo '<html>
 <title>
 </title>
 </head>
+</Style>
 <body>
 
   <div>
