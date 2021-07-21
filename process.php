@@ -16,8 +16,7 @@ $createtable = "
 		Student_name VARCHAR(100) NOT NULL, 
 		Student_reg VARCHAR(100) NOT NULL,
 		Student_class VARCHAR(100) NOT NULL;
-		Student_age VARCHAR(100) NOT NULL
-	)";
+		Student_age VARCHAR(100) NOT NULL)";
 mysqli_query($conn, $createtable);
 
 $sql = "INSERT INTO student_record (student_name, student_reg, student_class, student_age) VALUES('$varsname', '$varsreg', '$varsclass', '$varsage')";
@@ -33,9 +32,11 @@ echo  'Name :'.'&nbsp'.'Dear'.'&nbsp'. $_POST['sname'].'<br><br>'.'Reg number is
 $mycheck = "SELECT * FROM student_record WHERE student_name='$varsname'";
 $result = mysqli_query($conn, $mycheck);
 $count = mysqli_num_rows($result);
-if($count == 0){	
+if($count == 0)
+{	
 $sql = "INSERT INTO student_record(Student_name, Student_reg, Student_class, Student_age) VALUES($varsname', '$varsreg', '$varsclass', '$varsage')";
-	if(mysqli_query($conn, $sql)){
+	if(mysqli_query($conn, $sql))
+{
 		echo "Added successfully";
 		} else
 		echo "could not be added";
